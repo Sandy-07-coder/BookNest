@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA4mlKmhAKNxYgNwrEG1ftiefAwqTUj3Og",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "booknest-07.firebaseapp.com",
     projectId: "booknest-07",
     storageBucket: "booknest-07.firebasestorage.app",
